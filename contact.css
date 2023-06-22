@@ -1,0 +1,148 @@
+
+
+.nav{
+    margin-right: 50px;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: brown; */
+    margin-left: 50px;
+    
+  }
+  
+  ul.navbar li {
+    float: right;
+    /* margin-left: 50px; */
+  }
+  
+  ul.navbar li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Century Gothic;
+  }
+  
+  ul.navbar li a:hover {
+    background-color: purple;
+    border-radius: 50px;
+  }
+
+
+        .contact_h{
+            color: blue;
+            text-align: center;
+            margin-top: 90px;
+        }
+
+        .sec_one{
+            padding-bottom: 0px;
+            margin-left: 50px;
+        }
+
+        .location{
+            padding-bottom: 15px;
+        }
+
+        .icons .fa{
+            color: red;
+            margin: 0 13px;
+            cursor: pointer;
+            float: right;
+            padding-top: 5px;
+            list-style-type: none;
+            height: 30px;
+            width: 30px;
+    }
+
+
+  
+  .icons i{
+    color: #000;
+    /* height: 30px;
+    width: 30px; */
+  }
+
+  
+
+
+  .contact_section{
+    display: flex;
+    /* margin-left: 5opx; */
+  }
+
+  .sec_one{
+    padding: 0px 120px;
+  }
+
+  .icons img{
+    height: 20px;
+    width: 20px;
+    padding: 0px 2px;
+    cursor: pointer;
+  }
+
+  .btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: violet;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: seagreen;
+    background-color: darkkhaki;
+}
+
+
+#phone img{
+    height: 50px;
+    width: 50px;
+}
+
+#phone{
+    display: flex;
+}
+ 
+.inputs{
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.inputs input{
+    display: inline-block;
+    width: 600px;
+     /* margin: 20px; */
+    height: 30px;
+    /* padding-left: 70px; */
+}
+
+form{
+    width: 500px;
+    padding-left: 50px;
+
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+  
